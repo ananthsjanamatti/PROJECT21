@@ -45,6 +45,34 @@ function draw() {
     astronaut.velocityY = 0;
   }
   
- 
-
+ if (keyDown("Down_Arrow")){
+   astronaut.addAnimation("gyming",gym);
+astronaut.changeAnimation("gyming")
+  astronaut.y=350;
+  astronaut.velocityX=0;
+  astronaut.velocityY=0;
+ }
+  if(keydown)
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 }
